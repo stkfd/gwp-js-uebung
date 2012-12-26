@@ -1,0 +1,29 @@
+#photos ul  {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#photos ul li {
+	float: left;
+	margin: 3px;
+}
+
+#showcase {
+	display: none;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.3);
+	padding-top: 50px;
+	text-align: center;
+}
+
+#showcase.show {
+	display: block;
+	opacity: 1;
+	-webkit-transition: opacity .3s;
+}
